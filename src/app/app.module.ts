@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ViewnewsComponent } from './viewnews/viewnews.component';
 import { HttpClientModule } from '@angular/common/http';
+import { View2Component } from './view2/view2.component';
 const myRoute:Routes=[
   {
     path:"",
@@ -15,7 +16,8 @@ const myRoute:Routes=[
 @NgModule({
   declarations: [
     AppComponent,
-    ViewnewsComponent
+    ViewnewsComponent,
+    View2Component
   ],
   imports: [
     BrowserModule,
